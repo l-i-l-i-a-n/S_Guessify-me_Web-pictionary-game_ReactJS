@@ -1,0 +1,18 @@
+
+  .paper {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .maindiv {
+    max-width: calc(1000px + 16px * 2);
+    margin: auto;
+  }
+
+  .divid {
+    margin:auto;
+  }
+
+  .butt{
+    padding:20px;
+  }

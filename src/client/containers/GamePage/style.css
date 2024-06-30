@@ -1,0 +1,161 @@
+/*
+.page {
+  flex:1;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+*/
+
+:root {
+  --color-primary: #3f51b5 !important;
+}
+
+.fullHeight{
+  height:100%
+}
+
+.fullWidth{
+  width:100%
+}
+
+.box-sizing-border-box {
+  box-sizing: border-box;
+}
+
+.flexGrow1 {
+  flex-grow: 1 !important;
+}
+
+.borderBottomPrimary {
+  border-bottom: 1px solid var(--color-primary);
+  box-shadow: var(--color-primary);
+}
+
+.PrivateTabIndicator-root-120 {
+  background-color: white !important;
+}
+
+
+.slider {
+  border-radius: 5px !important;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.slider * {
+  border-radius: 5px !important;
+  margin: 0 !important;
+}
+.guessifyPointer {
+  width: 10px !important;
+  height: 10px !important;
+  border: 2px solid white !important;
+  border-radius: 100px !important;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+  transform: translate(-50%, -50%) !important;
+}
+.guessifySliderPointer {
+  width: 9px !important;
+  height: 28px !important;
+  border: 2px solid white !important;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+  transform: translate(-50%, -1px) !important;
+}
+
+.drawingArea {
+  cursor: crosshair !important;
+}
+.drawingRenderArea {
+  cursor: not-allowed !important;
+}
+
+.blurSVG {
+  
+}
+
+.brushSizeInput * {
+  width: 2em !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center !important;
+  overflow: visible !important;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.currentColorIcon {
+  transform: translate(-5px, -5px);
+  width: 30px;
+  height: 0;
+}
+
+.drawing-tools-horizontal {
+  /*transform: translateY(10px);*/
+}
+
+/*
+
+.blackco {
+
+  background-color: black;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.rightPanel{  
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat {
+  display: flex;
+  max-height: 200px;
+}
+*/
+
+.overflowWrap-breakWord {
+  overflow-wrap: break-word;
+}
+
+.height-maxContent {
+  height: max-content;
+}
+
+.textField * {
+  color:white !important;
+}
+
+.textField *::before {
+  border-color:rgba(255,255,255,0.5) !important;
+}
+
+.textField *::after {
+  border-color:rgba(255,255,255,1) !important;
+}
+
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: lightgrey rgba(150, 150, 150, 0.1) !important;
+}
+
+*::-webkit-scrollbar {
+  width: 8px !important;
+  background-color: rgba(150,150,150,0.1) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: lightgrey !important;
+}
